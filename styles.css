@@ -13,14 +13,14 @@ h1, h2{
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     margin:15px 10px;
 
 }
 
 .btn{
-    background: white;
+    background: rgba(255, 255, 255, 0);
     border:none;
     font-size: 20px;
     padding: 10px;
@@ -46,6 +46,11 @@ h1, h2{
 .info, .dp-div{
     margin:10px 50px;
 }
+
+#icon{
+    width: 50px;
+}
+
 #dp{
     width: 250px;
     border-radius: 50%;
