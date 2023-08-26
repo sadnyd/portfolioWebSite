@@ -23,17 +23,24 @@ h1, h2{
     background: white;
     border:none;
     font-size: 20px;
+    padding: 10px;
     margin: 0px 10px;
    
 }
+
+.btn:hover{
+    background: rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
 .card{
     display: flex;
-    transition: 0.5s ease;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin:100px 10px;
-    background: rgba(128,128,128,0.5);
+    padding: 5px;
+    background: rgba(128, 128, 128, 0.5);
     border-radius: 10px;
 }
 .info, .dp-div{
